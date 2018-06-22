@@ -1,0 +1,67 @@
+{
+  "_from": "jquery-scrollify",
+  "_id": "jquery-scrollify@1.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-tPNM2D1Kak3b9Qni+N6yBYRg1VOufZg9IOFlw2L5PCQhXcyigxfsmOcfG5rnZuKe3bb4ziWsa4Y5FV0qXPqsqw==",
+  "_location": "/jquery-scrollify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery-scrollify",
+    "name": "jquery-scrollify",
+    "escapedName": "jquery-scrollify",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-scrollify/-/jquery-scrollify-1.0.17.tgz",
+  "_shasum": "cf4310742b33c5d95dcfe0a8943ba9e8a6384ec7",
+  "_spec": "jquery-scrollify",
+  "_where": "F:\\wamp64\\www\\rengen\\assets\\js",
+  "author": {
+    "name": "Luke Haas"
+  },
+  "bugs": {
+    "url": "https://github.com/lukehaas/Scrollify/issues"
+  },
+  "bundleDependencies": false,
+  "demo": "http://projects.lukehaas.me/scrollify",
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "deprecated": false,
+  "description": "A jQuery plugin that assists scrolling and smoothly snaps to sections.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "mocha": "^3.1.2"
+  },
+  "homepage": "https://github.com/lukehaas/Scrollify",
+  "keywords": [
+    "scroll",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "snap",
+    "page"
+  ],
+  "license": "MIT",
+  "main": "jquery.scrollify.js",
+  "name": "jquery-scrollify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukehaas/Scrollify.git"
+  },
+  "scripts": {
+    "test": "mocha ./test/scrollify_test.js --recursive ./test"
+  },
+  "version": "1.0.17"
+}
