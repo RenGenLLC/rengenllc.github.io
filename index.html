@@ -1,145 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Rengen</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <!-- Latest compiled and minified CSS -->
-    
-    <!-- Optional theme -->
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-      
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-        <script src="assets/js/jquery-scrollify/jquery.scrollify.min.js" type="text/javascript" charset="utf-8" async defer></script>
-        <script src="assets/js/waypoint/lib/jquery.waypoints.min.js" type="text/javascript" charset="utf-8" async defer></script>
-                <!-- <script src="assets/js/custom.js" type="text/javascript" charset="utf-8" async defer></script> -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="" />
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" href="images/rengen/fav.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>RenGen.io | Multistrategy Crypto Focused Trading | Decentralized Digital Asset Exposure</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
+</head>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript" charset="utf-8" async="" defer=""></script>
-      <script>
-      
-        $(document).ready(function() {
-new WOW().init();
+<body>
 
 
-        
-        $( window ).resize(function() {
-setScrollify();
-});
-setScrollify();
-        function setScrollify(){
-if ($( document ).width()  < 992) {
-  $.scrollify.disable();
-}
-else {
-  $.scrollify.enable();
-}          
-        }
+    <!-- Body Inner -->
+    <div class="body-inner">
 
 
-        $.scrollify({
-        section : ".section",
-         before:function(possition) {
-            $(".dot").removeClass('is-active');
-            $(".dot-triangle").removeClass('is-active');
-            $(".dot-"+possition).addClass('is-active');
-            $(".dot-triangle-"+possition).addClass('is-active');
-            },
-        });
-        
-        $(".dot").on('click', function(){
-          var target = $(this).data('target');
-          $.scrollify.move(target);
-        });
-        });
-        </script>
-  </head>
-  <body>
-    <nav class="navbar  fixed-top bg-blue justify-content-between ">
-    <div class="w-100 row">
-    <div class="col-sm-1  d-lg-block d-none"></div>
-      <a class="navbar-brand mr-0 col-6" href="#"><img alt="Brand" class="img-fluid" src="img/rengen-logo-new-alt.png"></a>
-      <form class="form-inline p-0 col-6 justify-content-end col-md-4 ml-md-auto">
-        <a class="nav-link ml-0  nav-links" href="mailto:info@rengen.io">Contact</a>
+        <!-- Header -->
+        <header id="header" data-transparent="true" class="dark submenu-dark">
+            <div class="header-inner">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo"> <a href="index.html"><span class="logo-default">POLO-light</span><span class="logo-dark"><img src="images/rengen/Logo.png" height="50" width="auto"></span></a> </div>
+                    <!--End: Logo-->
+                    
+                  
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                       <li><a href="#about">About RenGen</a></li>
+									<li><a href="#services">Values</a></li>
+									<li><a href="#opportunities">Opportunities</a> </li>
+                                    <li><a href="#contact">Our Office</a> </li>
 
-        <!-- <a class="nav-link  justify-content-end ml-0 ml-sm-5 nav-links" href="#">Disclaimer</a> -->
-        
-      </form>
-      <div class="col-sm-1 "></div>
-      </div>
-    </nav>
-    
-      <ul class="side-nav d-none d-lg-block">
-        <li class="dot dot-0 is-active" data-target="0" style="float: left;">
-          <a  href="#1"></a>
-          </li><span class="glyphicon is-active dot-triangle dot-triangle-0 glyphicon-triangle-left"></span>
-          <li class="smalldot"></li>
-          <li class="smalldot"></li>
-          <li class="smalldot"></li>
-          <li class="smalldot"></li>
-          <li class="dot dot-1" data-target="1"  style="float: left;">
-            <a href="#2"></a>
-          </li><span  class="glyphicon dot-triangle dot-triangle-1 glyphicon-triangle-left"></span>
-        </ul>
-        <!--section1-->
-        <div class="container-fluid section" id="section1" style="background:rgba(0, 0, 0, 0) url('img/background.png') no-repeat scroll right center / contain ;">
-          <div class="row align-items-center" style="height: 100vh">
-            <div class="col-sm-1 d-md-block d-lg-block d-none"></div>
-            <div class="col-md-10 col-lg-6 ">
-              <h2 class="cc-title fadeInRight  wow animated">RenGen believes in decentralized ecosystems</h2>
-              <button class="button1 fadeIn  wow animated mt-4"> <a style="color:#FFFFFF" href="mailto:info@rengen.io">Contact Us</a></button>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
             </div>
-          </div>
+        </header>
+        <!-- end: Header -->
+
+
+        <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-height-xs="360">
+            <!-- Slide 1 -->
+            <div class="slide kenburns" data-bg-parallax="images/rengen/hero-bg3.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-light">
+                        <!-- Captions -->
+                        
+                        <h1 data-animate="fadeInUp" data-animate-delay="600">Multi-Strategy Crypto Focused Trading</h1>
+                        <div data-animate="fadeInUp" data-animate-delay="900">
+                          <button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><a href="#services"><span>Learn More</span></a><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                        <!-- end: Captions -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 1 -->
         </div>
-        <!-- End Section1 -->
-        <!--section2-->
-        <div class="container-fluid section" id="section2">
-          <div class="row align-items-center" style="height: 100vh">
-          <div class="col-sm-1 d-md-block d-lg-block d-none"></div>
-            <div class=" col-md-10 col-lg-6 ">
-              <h2 class="cc-title fadeIn wow animated"> Investments</h2>
-              <p class="cc-desc fadeIn wow animated">
-                We partner with and invest in projects addressing the mass adoption of decentralized applications.  We seek teams with integrity and an unwavering focus on execution.</p>
-            </div>
-            <div class="col-lg-4 col-9">
-              <img src="img/section-2a.png" class="wow zoomIn animated" style="float:right;" width="70%" alt="">
-            </div>
-          </div>
-        </div>
-        <!-- End Section2 -->
+        <!--end: Inspiro Slider -->
 
-        <!--footer-->
-        <footer class="mojFooter">
-          <div class="container" style="margin-top: 5px;">
-            <div class="footer-left" >
-              <ul class="footer-nav">
-                <!-- <li> <a href="https://www.facebook.com/"><img src="img/facebook-icon.png"></a></li> -->
-                <!-- <li> <a href="https://twitter.com/"><img src="img/twitter-icon.png"></a></li> -->
-              </ul>
+        <!-- About us -->
+        <section class="p-t-120 p-b-120 darkblue-bg" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="heading-text heading-section text-light" data-animate="fadeInUp">
+                            
+                            <h2>About RenGen</h2>
+                          <p class="lead">RenGen is a privately owned multi-strategy trading firm focused on crypto assets.</p>
+                          <p class="lead">Our emphasis on systematic and risk-based management has driven seven years of consistent all weather investment success, capturing the attractive risk-adjusted returns available from crypto assets.</p>
+                            <p class="lead">RenGen was founded in 2015, with the notion of combining crypto market expertise and traditional trading skills. We utilize technology to discover trading opportunities within crypto markets as decentralized infrastructure continues to develop. </p>
+                        </div>
+                    </div>
+					<div class="col-lg-6">
+                        <div class="" data-animate="fadeInUp">
+                            
+                            <img src="images/rengen/about-img.png" width="80%" height="auto" style="display: block;">
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+        <!-- end: About us -->
+		
+		 <!-- About us -->
+        <section class="darkblue-bg focus-img" id="services">
+            <div class="container text-light">
+                <div class="row">
+                   
+<div class="col-lg-8 m-t-40 p-40 center lightblue-bg">
+						<h2>Values</h2>
+                        <div class="row">
+                            <!-- features box -->
+                            <div class="col-lg-6">
+								
+                              <h4>Collaboration</h4>
+                              <p>We aim to break down the traditional barriers often present between teams at trading firms, bringing together informed perspectives, actionable insights and a holistic view of the universe of crypto-trading opportunities.</p>
+                                <p>The resultant funnel of information flow gives us a strong competitive advantage and keeps us at the forefront of crypto trading.<br>
+                                </p>
+                            </div>
+                            <!-- end: features box -->
+
+                            <!-- features box -->
+                            <div class="col-lg-6">
+                                <h4>Integrity</h4>
+                              <p>We seek individuals with a high degree of integrity who can operate as independent decision-makers and managers, backed by our capital, infrastructure and well established industry reach.</p>
+                                <p>We focus on giving our team the ability to adapt and try new things, placing a high value on trust and relationships, as well as skill and enthusiasm. </p>
+                            </div>
+                            <!-- end: features box -->
+
+                            <!-- features box -->
+                            <div class="col-lg-6">
+                                <h4>Technology</h4>
+                                <p>Leading-edge crypto execution and portfolio management infrastructure provide the tools for success in today’s complex and ever-changing trading environment.</p>
+                              <p>Our quantitative trading framework is second to none, incorporating unique in-house capabilities.</p>
+
+                            </div>
+                            <!-- end: features box -->
+
+                            <!-- features box -->
+                            <div class="col-lg-6">
+                              <h4>Risk Management</h4>
+                                <p>Our core competency of risk management has allowed us to thrive and navigate through all weather crypto markets for over seven years.</p>
+                            </div>
+                            <!-- end: features box -->
+                        </div>
+                    </div>
+                    <!-- end features box -->
+                </div>
+            </div>
+        </section>
+        <!-- end: About us -->
+		
+ <!-- Mod 2-->
+        <section class="p-t-80 p-b-80 darkblue-bg" id="opportunities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                         <div class="" data-animate="fadeInUp">
+                            
+                            <img src="images/rengen/img2.png" width="90%" height="auto" style="display: block;" alt="Matt is awesome!">
+                        </div>
+                    </div>
+					<div class="col-lg-6">
+                        
+						<div class="heading-text heading-section text-light" data-animate="fadeInUp">
+                            <h5 class="text-uppercase header-colored  no-margin">JOIN US</h5>
+                            <h2>Opportunities</h2>
+                          <p class="lead">If you're a traditional asset class trader looking to make the transition into crypto, or an experienced crypto enthusiast wanting to explore working with a best in class team then please get in touch.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+							 
+                            <div data-animate="fadeInUp" data-animate-delay="900">
+                          <button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><a href="mailto:Careers@rengen.io"><span>Careers@rengen.io</span></a><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: About us -->
+		
+		         
+		
+		 
+		
+		 
+		
+	
+		
+		          <!-- Mod 3-->
+        <section class="p-t-80 p-b-80 lightblue-bg no-margin" id="contact">
+            <div class="container">
+                <div class="row">
+					
+                    <div class="col-lg-6">
+                        <div class="heading-text heading-section text-light" data-animate="fadeInUp">
+                            <h5 class="text-uppercase header-colored  no-margin">Our Office</h5>
+                            <h2>New York</h2>
+                            <p class="lead">140 Broadway<br>New York<br>NY 10005<br>United States</p>
+							 <button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><a href="mailto:info@rengen.io"><span>Contact</span></a><i class="fa fa-arrow-right"></i></button>
+						
+                            
+                        </div>
+                    </div>
+					<div class="col-lg-6">
+                        <div class="" data-animate="fadeInUp">
+                            
+                            <img src="images/rengen/office.jpg" width="90%" height="auto" style="display: block; border-radius: 6px;">
+                        </div>
+                    </div>
+				
+                </div>
+            </div>
+        </section>
+        <!-- end: About us -->
+		
+        <!-- Footer -->
+        <footer id="footer">
             
-            <div class="footer-right">
-              <p>  Copyright RenGen LLC 2017.</p>
+            <div class="copyright-content text-light">
+                <div class="container">
+                    <div class="copyright-text">&copy; 2022 RenGen.io All Rights Reserved. </div>
+                </div>
             </div>
-          </div>
         </footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-        
-      
-      </body>
-    </html>
+        <!-- end: Footer -->
+
+    </div>
+    <!-- end: Body Inner -->
+
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rengen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    
+    <!-- Optional theme -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="assets/js/jquery-scrollify/jquery.scrollify.min.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="assets/js/waypoint/lib/jquery.waypoints.min.js" type="text/javascript" charset="utf-8" async defer></script>
+                <!-- <script src="assets/js/custom.js" type="text/javascript" charset="utf-8" async defer></script> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript" charset="utf-8" async="" defer=""></script>
+      <script>
+      
+        $(document).ready(function() {
+new WOW().init();
+
+
+        
+        $( window ).resize(function() {
+setScrollify();
+});
+setScrollify();
+        function setScrollify(){
+if ($( document ).width()  < 992) {
+  $.scrollify.disable();
+}
+else {
+  $.scrollify.enable();
+}          
+        }
+
+
+        $.scrollify({
+        section : ".section",
+         before:function(possition) {
+            $(".dot").removeClass('is-active');
+            $(".dot-triangle").removeClass('is-active');
+            $(".dot-"+possition).addClass('is-active');
+            $(".dot-triangle-"+possition).addClass('is-active');
+            },
+        });
+        
+        $(".dot").on('click', function(){
+          var target = $(this).data('target');
+          $.scrollify.move(target);
+        });
+        });
+        </script>
+  </head>
+  <body>
+    <nav class="navbar  fixed-top bg-blue justify-content-between ">
+    <div class="w-100 row">
+    <div class="col-sm-1  d-lg-block d-none"></div>
+      <a class="navbar-brand mr-0 col-6" href="#"><img alt="Brand" class="img-fluid" src="img/rengen-logo-new-alt.png"></a>
+      <form class="form-inline p-0 col-6 justify-content-end col-md-4 ml-md-auto">
+        <a class="nav-link ml-0  nav-links" href="mailto:info@rengen.io">Contact</a>
+
+        <!-- <a class="nav-link  justify-content-end ml-0 ml-sm-5 nav-links" href="#">Disclaimer</a> -->
+        
+      </form>
+      <div class="col-sm-1 "></div>
+      </div>
+    </nav>
+    
+      <ul class="side-nav d-none d-lg-block">
+        <li class="dot dot-0 is-active" data-target="0" style="float: left;">
+          <a  href="#1"></a>
+          </li><span class="glyphicon is-active dot-triangle dot-triangle-0 glyphicon-triangle-left"></span>
+          <li class="smalldot"></li>
+          <li class="smalldot"></li>
+          <li class="smalldot"></li>
+          <li class="smalldot"></li>
+          <li class="dot dot-1" data-target="1"  style="float: left;">
+            <a href="#2"></a>
+          </li><span  class="glyphicon dot-triangle dot-triangle-1 glyphicon-triangle-left"></span>
+        </ul>
+        <!--section1-->
+        <div class="container-fluid section" id="section1" style="background:rgba(0, 0, 0, 0) url('img/background.png') no-repeat scroll right center / contain ;">
+          <div class="row align-items-center" style="height: 100vh">
+            <div class="col-sm-1 d-md-block d-lg-block d-none"></div>
+            <div class="col-md-10 col-lg-6 ">
+              <h2 class="cc-title fadeInRight  wow animated">RenGen believes in decentralized ecosystems</h2>
+              <button class="button1 fadeIn  wow animated mt-4"> <a style="color:#FFFFFF" href="mailto:info@rengen.io">Contact Us</a></button>
+            </div>
+          </div>
+        </div>
+        <!-- End Section1 -->
+        <!--section2-->
+        <div class="container-fluid section" id="section2">
+          <div class="row align-items-center" style="height: 100vh">
+          <div class="col-sm-1 d-md-block d-lg-block d-none"></div>
+            <div class=" col-md-10 col-lg-6 ">
+              <h2 class="cc-title fadeIn wow animated"> Investments</h2>
+              <p class="cc-desc fadeIn wow animated">
+                We partner with and invest in projects addressing the mass adoption of decentralized applications.  We seek teams with integrity and an unwavering focus on execution.</p>
+            </div>
+            <div class="col-lg-4 col-9">
+              <img src="img/section-2a.png" class="wow zoomIn animated" style="float:right;" width="70%" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- End Section2 -->
+
+        <!--footer-->
+        <footer class="mojFooter">
+          <div class="container" style="margin-top: 5px;">
+            <div class="footer-left" >
+              <ul class="footer-nav">
+                <!-- <li> <a href="https://www.facebook.com/"><img src="img/facebook-icon.png"></a></li> -->
+                <!-- <li> <a href="https://twitter.com/"><img src="img/twitter-icon.png"></a></li> -->
+              </ul>
+            </div>
+            
+            <div class="footer-right">
+              <p>  Copyright RenGen LLC 2017.</p>
+            </div>
+          </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        
+      
+      </body>
+    </html>
